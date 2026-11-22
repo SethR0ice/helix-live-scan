@@ -1,0 +1,13 @@
+{
+  "name": "helix-live-scan",
+  "version": "1.0.0",
+  "description": "Check which of millions of Twitch channels are live, inside Helix rate limits, with flat memory. Zero dependencies.",
+  "main": "src/helix.js",
+  "bin": { "helix-live-scan": "bin/scan.js" },
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "scan": "node bin/scan.js"
+  },
+  "engines": { "node": ">=18" }
+}
