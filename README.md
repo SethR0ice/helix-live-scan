@@ -1,5 +1,7 @@
 # helix-live-scan
 
+![CI](https://github.com/SethR0ice/helix-live-scan/actions/workflows/ci.yml/badge.svg)
+
 Find out which channels in a long list of Twitch logins are live right now, using the Twitch Helix API, without tripping rate limits and with flat memory however long the list is.
 
 ```bash
